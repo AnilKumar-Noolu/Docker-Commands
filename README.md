@@ -19,7 +19,9 @@ Following are the list of most commonly used Docker Commands:
 
 -> docker rmi <Image_name> : This command is used to remove a Docker image from host machine, you can remove multiple images at a same time.
 
--> docker rm <container_id> : This command is used to remove a stopped Docker container from a host machine
+-> docker rm <container_id> : This command is used to remove a stopped Docker container from a host machine.
+
+-> docker rm -f <container_id> : This command is used to remove a Docker container forcefully without stopping from a host machine.
 
 -> docker exec : This command is used to execute a command inside a running Docker Container.
   
@@ -28,3 +30,5 @@ Following are the list of most commonly used Docker Commands:
 -> docker login: This command is used to login to a registry, such as Docker Hub with username and password.
   
 -> docker push <image_name> : This command is used to upload a Docker image to a registry, such as Docker Hub.
+
+-> docker volume create <volume_name> : This command is used to create a volume.
