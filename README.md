@@ -32,3 +32,6 @@ Following are the list of most commonly used Docker Commands:
 -> docker push <image_name> : This command is used to upload a Docker image to a registry, such as Docker Hub.
 
 -> docker volume create <volume_name> : This command is used to create a volume.
+
+-> docker rm $(docker ps -a -q -f status=excited): This command will delete all the container that have a status of excited.
+-q returns numeric ID's, -f returns filters based on condition given
